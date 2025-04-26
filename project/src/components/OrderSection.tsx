@@ -52,7 +52,7 @@ const OrderSection: React.FC = () => {
                 <h4 className="text-xl font-bold text-gray-800 mb-4 text-center">Need Help Ordering?</h4>
                 <div className="flex flex-col md:flex-row justify-center gap-4">
                   <a
-                    href="https://wa.me/09167287002"
+                    href="https://wa.me/message/C4HYOIP5NGZKA1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-colors"
