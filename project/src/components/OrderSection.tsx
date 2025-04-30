@@ -2,6 +2,14 @@ import React from 'react';
 import { AlertTriangle, PhoneCall, MessageSquare } from 'lucide-react';
 
 const OrderSection: React.FC = () => {
+  // Function to handle the Facebook Pixel tracking for the purchase event
+  const handleOrderClick = () => {
+    fbq('track', 'Purchase', {
+      currency: "NGN",
+      value: 205.000,  // Replace with the actual order value dynamically if needed
+    });
+  };
+  
   return (
     <section id="order" className="py-16 bg-white">
       <div className="container mx-auto px-4">
